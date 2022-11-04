@@ -1,0 +1,143 @@
+<html>
+  <title>API'S BUCKET</title>
+<link href='https://fonts.googleapis.com/css?family=Lato:400,100,300' rel='stylesheet' type='text/css'>
+
+<link href="https://fonts.googleapis.com/css?family=Raleway:100,400,700" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Oswald:200,400,700" rel="stylesheet">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link rel="shortcut icon" href="sh.jpeg" type="image/x-icon">
+
+<script src="https://use.fontawesome.com/20ab91acc4.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1"><link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+<link rel='stylesheet' href='https://cdn.jsdelivr.net/jquery.slick/1.3.15/slick.css'>
+<!--
+<link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+<script defer src="https://pyscript.net/latest/pyscript.js"></script>
+-->
+<body>
+  
+<section id="contact">
+
+  <h1 class="section-header">MEETUPSNOWEASIER </h1>
+  
+  
+
+  <div class="contact-wrapper">
+
+      <!--
+
+      CONTACT PAGE LEFT
+
+      ----------------->
+
+
+
+
+    <form class="form-horizontal" role="form" method="post"  >
+
+      <div class="form-group">
+        <div class="col-sm-12">
+          <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="col-sm-12">
+          <input  type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="">
+        </div>
+      </div>
+
+      <textarea class="form-control" rows="5" placeholder="what is the message you want to send-button" id="text_f"name="message"></textarea>
+
+      <button onclick="get_details()" class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+        <div class="button">
+          <i class="fa fa-paper-plane"></i><span class="send-text"><a href="id2.html">SEND</a></span>
+        </div>
+
+      </button>
+
+    
+      
+      
+    </form>
+    <!-----
+    <p class="btn btn-primary send-button">Output:</p>
+    <p id = 'output'></p>
+    <py-script>
+
+        def sub(*args,**kwargs):
+            result_place = Element('output')
+            result_place.write(f"{Element('name').value} is a good human from {Element('email').value}")
+    
+    </py-script>
+    ------->
+   
+
+      <!----------------
+
+      CONTACT PAGE RIGHT
+
+      ----------------->
+
+      <div class="direct-contact-container">
+        
+        <div class="container">
+        <!--  <input type="file" id="file" accept="image/*" hidden>-->
+       
+        
+          <div class="img-area" data-img="">
+            <i class='bx bxs-cloud-upload icon'></i>
+            <h3>Upload Image</h3>
+            <p>Image size must be less than <span>2MB</span></p>
+          </div>
+          <button onclick="getPathToFile()" class="select-image" >SELECT IMG
+          
+          </button>
+        </div>
+        <!-- <ul class="contact-list">
+          <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">Pakistan | Karachi</span></i></li>
+
+          <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="tel:1-212-555-5555" title="Give me a call">(+92)000000000</a></span></i></li>
+
+          <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#" title="Send me an email">Your E-mail here</a></span></i></li>
+
+        </ul> -->
+
+        
+      </div>
+      
+    </div>
+    <hr id="mams">
+    <ul class="social-media-list">
+      
+      <button id="github"><a href="https://github.com/granthpoorvik" target="_blank" class="contact-icon">
+        <i class="fa fa-github" aria-hidden="true"></i></a>
+      </button>
+      <button id="twitter"><a href="https://twitter.com/JainPoorvik" target="_blank"class="contact-icon">
+        <i class="fa fa-twitter" aria-hidden="true"></i></a>
+      </button>
+      <button id="linkedin"><a href="https://www.linkedin.com/in/jainpoorvik/" target="_blank"  class="contact-icon">
+        <i class="fa fa-linkedin" aria-hidden="true"></i></a>
+      </button>
+      <button id="insta"><a href="https://www.instagram.com/granth.poorvik5454/" target="_blank" class="contact-icon">
+        <i class="fa fa-instagram" aria-hidden="true"></i></a>
+      </button>
+      <button id="fb"><a href="https://www.facebook.com/granth.poorvikjain" target="_blank" class="contact-icon">
+        <i class="fa fa-facebook" aria-hidden="true"></i></a>
+      </button>
+    </ul>
+    <hr>
+    
+    <div class="copyright">&copy; ALL OF THE RIGHTS RESERVED TO  AIP'S BUCKET<!--YOUR SITE NAME--></div>
+  </section>
+    <!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
+<script type="text/javascript" src="../eel.js"></script>
+<script src="./script.js"></script>
+
+</body>
+</html>
